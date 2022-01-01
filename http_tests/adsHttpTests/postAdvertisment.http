@@ -1,0 +1,13 @@
+POST http://localhost:5500/advertisements HTTP/1.1
+content-type: application/json
+Authorization: BEARER eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MWNjNjhjNDg5NGViZjkwZjE5MzVjNWQiLCJ1c2VybmFtZSI6InpTb3JvdXIiLCJpYXQiOjE2NDEwMzIyOTEsImV4cCI6MTY0MTAzNTg5MX0.QhEq03ijcna5tE-PSj0aNiH6HjVq0m5dY6Gm1p8FMxs
+
+{
+    "name": "Nimo",
+    "age": 1,
+    "type": "Fish",
+    "gender": "female",
+    "petOwnerUsername":"zSorour",
+    "healthCondition": "normal",
+    "isPremium":true
+}

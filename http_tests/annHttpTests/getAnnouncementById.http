@@ -1,0 +1,2 @@
+GET http://localhost:5500/announcements/61d040004f89739c48122cd4 HTTP/1.1
+content-type: application/json

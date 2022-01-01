@@ -1,0 +1,10 @@
+POST http://localhost:5500/advertisements/advertisementPayment HTTP/1.1
+content-type: application/json
+Authorization: BEARER eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2MWQwMmVjOWZlMGU0M2Q4NWY5ODM2YTMiLCJ1c2VybmFtZSI6InpTb3JvdXI3NyIsImlhdCI6MTY0MTAzNTQ1NiwiZXhwIjoxNjQxMDM5MDU2fQ.Ipgh2Vb2eBalvnG3kg8JgYvmV4IeW12pV_I_kcNHcVw
+
+{
+    "cardNumber": "4242424242424242",
+    "expiryMonth": "12",
+    "expiryYear": "2022",
+    "cvv": "314"
+}

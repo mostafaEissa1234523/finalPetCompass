@@ -1,0 +1,2 @@
+GET http://localhost:5500/announcements HTTP/1.1
+content-type: application/json
